@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memmory Game</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="script.js"></script>
+    <style>
+      .mdl_box {
+        position: absolute;
+      }
+      .mdl {
+        margin-left: 330px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="head">
+      <h2>SKIN SELECTION GAME</h2>
+      <div class="score">Score: <span>0</span></div>
+    </div>
+
+    <div class="container">
+      <div class="cell">
+        <div class="front" data-index="1">
+          <img src="css/img/assets/01.png" alt="" />
+        </div>
+        <div class="back"></div>
+      </div>
+      <div class="cell">
+        <div class="front" data-index="2">
+          <img src="css/img/assets/2.png" alt="" />
+        </div>
+        <div class="back"></div>
+      </div>
+      <div class="cell">
+        <div class="front" data-index="3">
+          <img src="css/img/assets/3.png" alt="" />
+        </div>
+        <div class="back"></div>
+      </div>
+      <div class="cell">
+        <div class="front" data-index="4">
+          <img src="css/img/assets/4.png" alt="" />
+        </div>
+        <div class="back"></div>
+      </div>
+      <div class="cell">
+        <div class="front" data-index="5">
+          <img src="css/img/assets/5.png" alt="" />
+        </div>
+        <div class="back"></div>
+      </div>
+      <div class="cell">
+        <div class="front" data-index="6">
+          <img src="css/img/assets/6.png" alt="" />
+        </div>
+        <div class="back"></div>
+      </div>
+      <div class="cell">
+        <div class="front" data-index="7">
+          <img src="css/img/assets/7.png" alt="" />
+        </div>
+        <div class="back"></div>
+      </div>
+      <div class="cell">
+        <div class="front" data-index="8">
+          <img src="css/img/assets/8.png" alt="" />
+        </div>
+        <div class="back"></div>
+      </div>
+      <div class="cell">
+        <div class="front" data-index="1">
+          <img src="css/img/assets/01.png" alt="" />
+        </div>
+        <div class="back"></div>
+      </div>
+      <div class="cell">
+        <div class="front" data-index="2">
+          <img src="css/img/assets/2.png" alt="" />
+        </div>
+        <div class="back"></div>
+      </div>
+      <div class="cell">
+        <div class="front" data-index="3">
+          <img src="css/img/assets/3.png" alt="" />
+        </div>
+        <div class="back"></div>
+      </div>
+      <div class="cell">
+        <div class="front" data-index="4">
+          <img src="css/img/assets/4.png" alt="" />
+        </div>
+        <div class="back"></div>
+      </div>
+      <div class="cell">
+        <div class="front" data-index="5">
+          <img src="css/img/assets/5.png" alt="" />
+        </div>
+        <div class="back"></div>
+      </div>
+      <div class="cell">
+        <div class="front" data-index="6">
+          <img src="css/img/assets/6.png" alt="" />
+        </div>
+        <div class="back"></div>
+      </div>
+      <div class="cell">
+        <div class="front" data-index="7">
+          <img src="css/img/assets/7.png" alt="" />
+        </div>
+        <div class="back"></div>
+      </div>
+
+      <div class="cell">
+        <div class="front" data-index="8">
+          <img src="css/img/assets/8.png" alt="" />
+        </div>
+        <div class="back"></div>
+      </div>
+    </div>
+
+    <div class="box" id="box">
+      <div style="height: 85px">
+        <!-- <span id="won" class="match-font"></span> -->
+
+        <div class="mdl_box">
+          <div class="front" style="display: contents;">
+            <div data-index="1"  style="display: none" id="a" >
+              <img src="css/img/assets/01.png" alt="" class="mdl"/>
+            </div>
+          </div>
+          <div class="front" style="display: contents;">
+            <div data-index="1"  style="display: none" id="b" >
+              <img src="css/img/assets/2.png" alt="" class="mdl"/>
+            </div>
+          </div>
+          <div class="front" style="display: contents;">
+            <div data-index="1"  style="display: none" id="c" >
+              <img src="css/img/assets/3.png" alt="" class="mdl"/>
+            </div>
+          </div>
+          <div class="front" style="display: contents;">
+            <div data-index="1"  style="display: none" id="d" >
+              <img src="css/img/assets/4.png" alt="" class="mdl"/>
+            </div>
+          </div>
+          <div class="front" style="display: contents;">
+            <div data-index="1"  style="display: none" id="e" >
+              <img src="css/img/assets/5.png" alt="" class="mdl"/>
+            </div>
+          </div>
+          <div class="front" style="display: contents;">
+            <div data-index="1"  style="display: none" id="f" >
+              <img src="css/img/assets/6.png" alt="" class="mdl"/>
+            </div>
+          </div>
+          <div class="front" style="display: contents;">
+            <div data-index="1"  style="display: none" id="g" >
+              <img src="css/img/assets/7.png" alt="" class="mdl"/>
+            </div>
+          </div>
+          <div class="front" style="display: contents;">
+            <div data-index="1"  style="display: none" id="h" >
+              <img src="css/img/assets/8.png" alt="" class="mdl"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
